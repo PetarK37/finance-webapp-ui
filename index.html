@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <title>Finance webapp</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="img/pngfind.com-planet-png-2187092.png" alt="company logo" class="logo">
+            <button class="first-flex">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+            <button>
+                <ion-icon name="notifications-outline"></ion-icon>
+            </button>
+            <button>
+                <ion-icon name="settings-outline"></ion-icon>
+            </button>
+            <button class="profile-img"><img src="img/Screenshot_20200614-194508-01.jpeg" alt="profile img"></button>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item">
+                    <button class="menu-btn">
+                        <ion-icon name="grid-outline"></ion-icon>
+                    </button>
+                </li>
+                <li class="menu-item">
+                    <button class="menu-btn">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+                    </button>
+                </li>
+                <li class="menu-item">
+                    <button class="menu-btn">
+                        <ion-icon name="pie-chart-outline"></ion-icon>
+                    </button>
+                </li>
+                <li class="menu-item flex-last">
+                    <button class="menu-btn">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <section class="main-window">
+            <div class="balance-card">
+                <h2 class="balance-title">Balance details</h2>
+                <p class="balance-p">$2,136,045.00</p>
+                <h4 class="small">3.34105027 BTC</h4>
+                <div>
+                    <h4 class="income-p">$3,256.00</h4>
+                    <p class="small">Income</p>
+                </div>
+                <div>
+                    <h4 class="income-p">$1,289.00</h4>
+                    <p class="small">Expenses</p>
+                </div>
+                <button class="recive-btn">Recive</button>
+                <button class="send-btn">Send</button>
+            </div>
+            <p class="fee-label">Fees</p>
+            <div class="fee-card">
+                <h3 class="fee-precent">0.069%</h3>
+                <p class="fee-label">Maker</p>
+            </div>
+            <div class="fee-card">
+                <h3 class="fee-precent">0.075%</h3>
+                <p class="fee-label">Taker</p>
+            </div>
+            <div class="wiew-all wallets">
+                <p class="label">Wallets</p>
+                <p>Wiew all</p>
+            </div>
+            <aside class="wallets-section">
+                <div class="wallet-item">
+                    <button>
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </button>
+                    <div class="wallet-name">
+                        <p class="name-p">BTE</p>
+                        <p>Bitcoin</p>
+                    </div>
+                    <div class="wallet-precent">
+                        <p>37%</p>
+                        <p>2.5%</p>
+                    </div>
+                </div>
+                <div class="wallet-item">
+                    <button>
+                        <ion-icon name="wallet-outline"></ion-icon>
+                    </button>
+                    <div class="wallet-name">
+                        <p class="name-p">BTE</p>
+                        <p>Bitcoin</p>
+                    </div>
+                    <div class="wallet-precent">
+                        <p>37%</p>
+                        <p class="minus">-2.5%</p>
+                    </div>
+                </div>
+                <div class="wallet-item">
+                    <button>
+                        <ion-icon name="wallet-outline"></ion-icon>
+                    </button>
+                    <div class="wallet-name">
+                        <p class="name-p">BTE</p>
+                        <p>Bitcoin</p>
+                    </div>
+                    <div class="wallet-precent">
+                        <p>37%</p>
+                        <p>1.5%</p>
+                    </div>
+                </div>
+                <div class="wallet-item">
+                    <button>
+                        <ion-icon name="wallet-outline"></ion-icon>
+                    </button>
+                    <div class="wallet-name">
+                        <p class="name-p">BTE</p>
+                        <p>Bitcoin</p>
+                    </div>
+                    <div class="wallet-precent">
+                        <p>37%</p>
+                        <p class="minus">-2.5%</p>
+                    </div>
+                </div>
+            </aside>
+            <div class="wiew-all transactions">
+                <p class="label">Transactions</p>
+                <p>Wiew all</p>
+            </div>
+            <section class="transactions-section">
+                <div class="transaction-item">
+                    <button class="pay">
+                        <ion-icon name="arrow-down-outline"></ion-icon>
+                    </button>
+                    <div class="transaction-details">
+                        <p>BTE</p>
+                        <p>Bitcoin</p>
+                    </div>
+                    <p class="first-flex minus">-1.289.00</p>
+                </div>
+                <div class="transaction-item">
+                    <button class="recive">
+                        <ion-icon name="arrow-up-outline"></ion-icon>
+                    </button>
+                    <div class="transaction-details">
+                        <p>BTE</p>
+                        <p>Bitcoin</p>
+                    </div>
+                    <p class="first-flex">+1.289.00</p>
+                </div>
+                <div class="transaction-item">
+                    <button class="pay">
+                        <ion-icon name="arrow-down-outline"></ion-icon>
+                    </button>
+                    <div class="transaction-details">
+                        <p>BTE</p>
+                        <p>Bitcoin</p>
+                    </div>
+                    <p class="minus first-flex">-1.289.00</p>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+</html>
